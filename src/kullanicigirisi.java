@@ -128,8 +128,10 @@ public class kullanicigirisi extends javax.swing.JFrame {
       
       if((b[0]==c[0])& (b[1]==c[1])){
           
-          Rapor r=new Rapor();
-          r.setVisible(true);
+          Anasayfa anasayfa= new Anasayfa();
+          anasayfa.setVisible(true);
+         // Rapor r=new Rapor();
+         // r.setVisible(true);
           
       }
       else{
